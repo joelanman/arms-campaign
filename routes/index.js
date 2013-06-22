@@ -16,25 +16,9 @@ exports.home = function(req, res){
 	
 };
 
-exports.tiles = function(req, res){
+exports.product = function(req, res){
 
-	console.log("tiles");
-	res.render('tiles');
+	console.log("product");
+	res.render('product');
 	
-};
-
-
-exports.sideMenu = function(req, res){
-
-	console.log("sideMenu");
-	res.render('side-menu');
-	
-};
-
-exports.search = function(req, res){
-	
-	console.log("search");
-	
-	res.redirect("/"+req.param("location"));
-
 };

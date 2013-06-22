@@ -71,6 +71,10 @@ input{
 .mainFooter .more{
 }
 
+.mainHeader{
+	height: 90px;
+}
+
 .topHeader{
 	border-bottom: 1px solid #ddd;
 }
@@ -97,7 +101,20 @@ input{
 
 .subHeader{
 	position: relative;
-	padding: 6px 0 0 200px;
+	padding: 6px 0 0 240px;
+}
+
+.searchWrap{
+	margin-right: 300px;
+}
+
+.accountWrap{
+	margin-left: -300px;
+	float:right;
+}
+.accountWrap>div{
+	float: right;
+	width: 100px;
 }
 
 .mainHeader .browse{
@@ -146,5 +163,11 @@ input{
 
 .main .carousel{
 	height: 430px;
-	padding: 20px 20px 20px 200px;
+	padding: 20px 20px 20px 240px;
+}
+
+.more li{
+
+	float: left;
+	margin: 20px;
 }

@@ -37,9 +37,7 @@ app.configure('production', function(){
 
 
 app.get('/', routes.home);
-app.get('/tiles', routes.tiles);
-app.get('/side-menu', routes.sideMenu);
-app.get('/search', routes.search);
+app.get('/product', routes.product);
 
 var port = argv.p || process.env.PORT || 3000;
 
